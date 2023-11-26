@@ -4,8 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>TEST TEST TEST</p>
+
+    <header>
+        <div id="menu-bar" class="fa fa-bars"></div>
+        <a href="#" class="logo"><img src="img/logo.png" alt="Logo" ></a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#product">Product</a>
+            <a href="#fearured">Featured</a>
+            <a href="#blog">blog</a>
+            <a href="#news">news</a>
+        </nav>
+        <div class="icons">
+            <a href="#"><i class="fa fa-heart"></i></a>
+            <a href="#"><i class="fa fa-shopping-cart"></i></a>
+            <a href="#"><i class="fa fa-user"></i></a>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="slide-container active">
+            <div class="slide">
+                <div class="content">
+                    <span>Nike Sport Shoes</span>
+                    <h3>NIKE Atlete Dunk Low</h3>
+                    <p>
+                        Shprehni stilin tuaj nëpërmjet atleteve të cilat përshtaten lehtësisht me trendet e ndryshme të modës. 
+                    </p>
+                    <a href="#" class="btn">add to card</a>
+                </div>
+                <div class="image">
+                    <img src="img/slide/1.png" class="shoe">
+                </div>
+            </div>
+        </div>
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <span>Nike Sport Shoes</span>
+                    <h3>NIKE Atlete Air Force 1 '07</h3>
+                    <p>
+                        Profili i cekët i bën atletet të duken elegante Fitoni pikë në stilin e atleteve Lifestyle për meshkuj Nike AIR FORCE 1 '07.
+                    </p>
+                    <a href="#" class="btn">add to card</a>
+                </div>
+                <div class="image">
+                    <img src="img/slide/2.png" class="shoe">
+                </div>
+            </div>
+        </div>
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <span>Nike Sport Shoes</span>
+                    <h3>NIKE Atlete Air Force 1 '07</h3>
+                    <p>
+                        Pamja e bukur dhe e veçantë nuk mungon dhe në atletet Lifestyle për meshkuj Nike Air Force 1 '07, një ikonë e paimitueshme e basketbollit. 
+                    </p>
+                    <a href="#" class="btn">add to card</a>
+                </div>
+                <div class="image">
+                    <img src="img/slide/3.png" class="shoe">
+                </div>
+            </div>
+        </div>
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <span>Nike Sport Shoes</span>
+                    <h3>NIKE Atlete Air Dunk Jumbo</h3>
+                    <p>
+                        Nike Blazer Mid '77 Jumbo janë atlete Lifestyle për meshkuj me një dizajn që është gjithmonë aktual.
+                        Ato ju ofrojnë gjithashtu një pamje premium që do të jetë gjithmonë pjesë e kohës
+                    </p>
+                    <a href="#" class="btn">add to card</a>
+                </div>
+                <div class="image">
+                    <img src="img/slide/4.png" class="shoe">
+                </div>
+            </div>
+        </div>
+
+        <div id="prev" class="fa fa-angle-left" onclick="prev();"></div>
+        <div id="next" class="fa fa-angle-right" onclick="next();"></div>
+    </section>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
