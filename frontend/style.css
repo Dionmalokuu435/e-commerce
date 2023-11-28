@@ -391,4 +391,46 @@ section{
 
 /* FUND I BLOG */ /* FUND I BLOG */ /* FUND I BLOG */ /* FUND I BLOG */ /* FUND I BLOG */ /* FUND I BLOG */ /* FUND I BLOG */ /* FUND I BLOG */
 
+.news{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.news .content{
+    text-align: center;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    background: #f9f9f9;
+    padding: 2rem;
+}
+.news .content h3{
+    font-size: 2.5rem;
+    color: #000;
+}
+.news .content p{
+    font-size: 1.5rem;
+    color: #666;
+    margin: 1rem auto;
+    max-width: 60rem;
+}
+.news .content form{
+    margin:  1rem auto;
+    max-width: 50rem;
+    display: flex;
+}
 
+.news .content form .email{
+    width: 100%;
+    font-size: 1.7rem;
+    text-transform: none;
+    color: #333;
+    padding: 1rem;
+    border: .2rem solid #000;
+    border-right: none;
+    margin-top: 1rem;
+}
+.news .content form .btn{
+    border-radius: none;
+}
+
+
+/* FUND I NEWS */ /* FUND I NEWS */ /* FUND I NEWS */ /* FUND I NEWS */ /* FUND I NEWS */ /* FUND I NEWS */ /* FUND I NEWS */ /* FUND I NEWS */
