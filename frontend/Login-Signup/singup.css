@@ -1,0 +1,91 @@
+body {
+    background-color: #2c3e50; 
+}
+
+.div1 {
+    width: 490px;
+    height: 598px;
+    background-color: #ecf0f1; 
+    font-family: 'Titillium Web', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.div1 h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    color: #2c3e50;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+
+.div2 input {
+    border: none;
+    width: 195px;
+    height: 36px;
+    padding: 12px 10px;
+    background-color: #ecf0f1; 
+    margin: 8px 0;
+    border-bottom: 1px solid #2c3e50; 
+    margin-left: 20px;
+    text-transform: uppercase;
+    color: #2c3e50;
+}
+
+.div2 .password1 {
+    width: 420px;
+    height: 36px;
+}
+
+.div2 button {
+    border-radius: 30px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    width: 345px;
+    cursor: pointer;
+    margin-left: 67px;
+    border: 1px solid #2c3e50; 
+    color: #2c3e50;
+    background-color: transparent;
+    margin-top: 30px;
+}
+
+.div2 button:hover {
+    background-color: #2c3e50; 
+    color: white;
+    cursor: pointer;
+}
+
+.div2 h5 a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #2c3e50; 
+}
+
+.div2 h5 {
+    text-align: center;
+}
+
+
+@media (max-width: 600px) {
+    .div1 {
+        width: 90%;
+        height: auto;
+        top: 30%;
+        margin-top: 0;
+    }
+
+    .div2 input,
+    .div2 .password1,
+    .div2 button {
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .div2 button {
+        margin-top: 20px;
+    }
+}
